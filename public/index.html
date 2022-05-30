@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <link rel="shortcut icon" href="assets/icons/computer-3.png" type="image/png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/win95.css">
+
+  <title>My Library</title>
+  <style>
+    .in-table {
+      width: 70px !important;
+    }
+
+    .cuadro_tabla {
+      width: 6px;
+      height: 30px;
+      color: #e02424;
+      overflow: hidden;
+    }
+
+    .cuadro_tabla span {
+      display: block;
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      width: 32px;
+      height: 30px;
+      margin-left: 8px;
+      font-size: 12px;
+
+    }
+
+    @keyframes example {
+      from {
+        width: 6px;
+
+      }
+
+      to {
+        width: 24px;
+      }
+    }
+
+    .cuadro_tabla:hover {
+      width: 24px;
+      height: 30px;
+      animation-duration: 1s;
+      animation-name: example;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+
+</body>
+
+</html>
